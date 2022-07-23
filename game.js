@@ -17,7 +17,7 @@ $(document).keydown(function(){
 function nextSequence( ) {
     userClickedPattern = [];
     level ++;
-    $("#level-title").text("Level"+level)
+    $("#level-title").text("Level "+level)
     // chose random color
     var randomVariable = Math.floor(Math.random() * 3)+1;
     var randomChosenColour = buttonColours[randomVariable];
